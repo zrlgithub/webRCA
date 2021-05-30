@@ -129,10 +129,10 @@ app.get('/buy', (req, res) => {
 //MY SQL CONNECTION
 
 const connection = mysql.createPool({
-  host: 'eu-cdbr-west-01.cleardb.com',
-  user: 'bf852b744e428a',
-  password: 'd3eb1890',
-  database:'heroku_b688fc183b54ddd',
+  host: '',
+  user: '',
+  password: '',
+  database:'',
   port: 3306,
   multipleStatements: true
 });
